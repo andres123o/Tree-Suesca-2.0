@@ -71,7 +71,7 @@ body {
 }
 .container-inf01 {
     width: 100%;
-    height: 2900px;
+    height: 2000px;
     background-image: linear-gradient(to right top, #19468a, #254b99, #334fa8, #4353b7, #5556c5);
 }
 .container-enunciado1 img {
@@ -100,6 +100,7 @@ body {
     font-size: 25px;
     color: rgb(255, 255, 255);
     text-align: center;
+
 }
 .container-plan {
     width: 90%;
@@ -118,7 +119,7 @@ body {
 }
 .container-panel1 {
     width: 80%;
-    height: 400px;
+    height: 410px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,24 +129,14 @@ body {
     transition-duration: 0.5s;
 }
 .container-panel1:hover {
-    width: 80%;
-    height: 400px;
-    background-color: #eee9f3;
-    margin: 0 auto;
-    border-radius: 25px;
     box-shadow: 5px 10px 30px 3px;
     transform: scale(1.03);
     transition-duration: 0.5s;   
 }
 .container-panel1:active {
-    width: 80%;
-    height: 400px;
-    background-color: #eee9f3;
-    margin: 0 auto;
-    border-radius: 25px;
     box-shadow: 5px 10px 30px 3px;
     transform: scale(1.03);
-    transition-duration: 0.5s;   
+    transition-duration: 0.5s; 
 }
 .espacio {
     width: 100%;
@@ -154,11 +145,59 @@ body {
 .container-trafico {
     width: 90%;
     height: 90%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.container-trafico h4 {
+    color: #19468a;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-family:  'Akshar', sans-serif;
+    margin-top: 10px;
 }
 .container-trafico p {
     color: #19468a;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
+    margin-top: 15px;
+    font-family:  'Akshar', sans-serif;
+}
+.container-trafico button {
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Akshar', sans-serif;
+    background-image: linear-gradient(to right top, #19468a, #254b99, #334fa8, #4353b7, #5556c5);   
+    color: rgb(255, 255, 255);
+    margin: 15%;
+    border: none;
+    border-radius: 20px;
+}
+
+.container-trafico button:active {
+    box-shadow: 5px 10px 30px 3px;
+    transform: scale(1.1);
+    transition-duration: 0.1s;
+    color: white;   
+}
+.h4-unico {
+    color: #19468a;
+    text-align: center;
+    line-height: 35px;
+    font-size: 40px;
+    font-weight: 400;
+    height: 80px;
+    font-family:  'Akshar', sans-serif;
+}
+.h4-unico2 {
+    color: #19468a;
+    text-align: center;
+    line-height: 35px;
+    font-size: 40px;
+    font-weight: 400;
+    height: 80px;
     font-family:  'Akshar', sans-serif;
 }
