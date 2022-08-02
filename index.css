@@ -119,7 +119,7 @@ body {
 }
 .container-panel1 {
     width: 80%;
-    height: 410px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,7 +172,7 @@ body {
     font-family: 'Akshar', sans-serif;
     background-image: linear-gradient(to right top, #19468a, #254b99, #334fa8, #4353b7, #5556c5);   
     color: rgb(255, 255, 255);
-    margin: 15%;
+    margin: 10%;
     border: none;
     border-radius: 20px;
 }
@@ -183,21 +183,11 @@ body {
     transition-duration: 0.1s;
     color: white;   
 }
-.h4-unico {
-    color: #19468a;
-    text-align: center;
-    line-height: 35px;
-    font-size: 30px;
-    font-weight: 400;
-    height: 80px;
-    font-family:  'Akshar', sans-serif;
-}
 .h4-unico2 {
     color: #19468a;
     text-align: center;
     line-height: 35px;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 400;
-    height: 80px;
     font-family:  'Akshar', sans-serif;
 }
