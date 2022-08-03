@@ -56,7 +56,7 @@ body {
 }
 .animation .container-eslogan p {
     font-family: 'Akshar', sans-serif;
-    font-size: 25px;
+    font-size: 18px;
     color: rgb(255, 255, 255);
     text-align: center;
 }
@@ -91,13 +91,13 @@ body {
 }
 .container-text {
     width: 90%;
-    height: 120px;
+    height: 50px;
     padding: 20px;
     text-align: center;
 }
 .container-text p {
     font-family: 'Akshar', sans-serif;
-    font-size: 25px;
+    font-size: 18px;
     color: rgb(255, 255, 255);
     text-align: center;
 
@@ -111,7 +111,7 @@ body {
 }
 .container-plan p {
     font-family: 'Akshar', sans-serif;
-    font-size: 45px;
+    font-size: 40px;
     margin-top: 10px;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -172,9 +172,13 @@ body {
     font-family: 'Akshar', sans-serif;
     background-image: linear-gradient(to right top, #19468a, #254b99, #334fa8, #4353b7, #5556c5);   
     color: rgb(255, 255, 255);
-    margin: 10%;
+    margin-left: auto;
+    margin-right: auto;
     border: none;
     border-radius: 20px;
+    display: block;
+    align-self: center;
+    margin-top: 30px;
 }
 
 .container-trafico button:active {
@@ -190,4 +194,11 @@ body {
     font-size: 28px;
     font-weight: 400;
     font-family:  'Akshar', sans-serif;
+}
+.container-quien {
+    font-family: 'Akshar', sans-serif;
+    font-size: 40px;
+    margin-top: 70px;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
