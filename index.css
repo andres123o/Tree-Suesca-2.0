@@ -211,7 +211,7 @@ body {
 .container-red p {
     color: white;
     font-family: 'Akshar', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
@@ -222,9 +222,11 @@ body {
 }
 .container-info-red p {
     color: white;
-    font-family: 'Akshar', sans-serif;
     text-align: justify;
-    padding-left: 40px;
-    padding-right: 40px;
     font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+    font-family:  'Akshar', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
 }
